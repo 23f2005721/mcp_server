@@ -1,6 +1,6 @@
 from hashlib import sha256
 
-from mcp.server.fastmcp import FastMCP
+from fastmcp import FastMCP
 from fastmcp.server.dependencies import get_http_headers
 
 EMAIL = "23f2005721@ds.study.iitm.ac.in".strip().lower()
