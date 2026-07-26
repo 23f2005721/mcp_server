@@ -17,4 +17,4 @@ async def solve_challenge() -> str:
     return sha256(f"{challenge}:{EMAIL}".encode()).hexdigest()[:16]
 
 
-app = mcp.streamable_http_app()
+app = mcp.http_app()
